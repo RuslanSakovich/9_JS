@@ -4,6 +4,6 @@ let b = window.prompt("Value b");
 a = Number(a);
 b = Number(b);
 
-let с = Math.sqrt(a * a + b * b);
+let с = Math.floor(Math.sqrt(a ** 2 + b ** 2));
 
-console.log(Math.round(с));
+alert(с);
