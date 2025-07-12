@@ -11,3 +11,36 @@
 10 Получите последнее значение индекс Pop и выведете его на экран.
 */
 
+let buyList = [];
+console.log(buyList);
+
+buyList.push("Milk", "Bread", "Apples");
+console.log(buyList);
+
+buyList.splice(1, 1, "Bananas", "Eggs");
+console.log(buyList);
+
+console.log(buyList.length - 1);
+console.log(buyList[3]);
+
+buyList.pop();
+console.log(buyList);
+
+buyList.sort();
+console.log(buyList);
+console.log(buyList.indexOf("Milk"));
+
+let findIndexMilk = buyList.indexOf("Milk");
+console.log(findIndexMilk);
+
+buyList.splice(1, 0, "Carrot", "Lettuce");
+console.log(buyList);
+
+let secondBuyList = ["Juice", "Pop"];
+console.log(secondBuyList);
+
+let totalBuyList = buyList.concat(secondBuyList).concat(secondBuyList);
+console.log(totalBuyList);
+
+let lastPop = totalBuyList.lastIndexOf("Pop");
+console.log(lastPop);

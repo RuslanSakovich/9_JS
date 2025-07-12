@@ -10,8 +10,6 @@ favoriteFruits.push("tangerine", "melon"); //метод push добавляет 
 let lenghtOfFavoriteFruits = favoriteFruits.push("lime"); //добавление элемента массива, с сохранинием нового массива в переменной
   console.log(favoriteFruits);  
 
-
-
 //splice метод для добавления элемента в определенный индекс
 let arrOfhShapes = ["cat", "dog", "mous", "elefant"];
 
